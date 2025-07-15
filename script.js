@@ -14,7 +14,6 @@ function displayBooks() {
         results.appendChild(div);
     })
 };
-
 form.addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -30,15 +29,11 @@ form.addEventListener("submit", function (e) {
         form.reset();
     }
 })
-
-
-
 function deleteBook(index) {
     books.splice(index, 1);
     localStorage.setItem("books", JSON.stringify(books));
     displayBooks();
 }
-
 displayBooks()
 
 
