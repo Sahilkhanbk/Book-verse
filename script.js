@@ -3,6 +3,12 @@ const results = document.querySelector(".bookList")
 
 let books = JSON.parse(localStorage.getItem("books")) || [];
 
+
+
+
+
+
+
 function displayBooks() {
     results.innerHTML = "";
     books.forEach((book, index) => {
@@ -35,6 +41,7 @@ function deleteBook(index) {
     displayBooks();
 }
 displayBooks()
+
 
 
 
