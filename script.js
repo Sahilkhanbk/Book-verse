@@ -14,7 +14,6 @@ function displayBooks() {
     })
 
 
-
     
 };
 form.addEventListener("submit", function (e) {
@@ -38,6 +37,7 @@ function deleteBook(index) {
     displayBooks();
 }
 displayBooks()
+
 
 
 
