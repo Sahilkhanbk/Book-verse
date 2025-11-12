@@ -12,7 +12,6 @@ function displayBooks() {
 `;
         results.appendChild(div);
     })
-
 };
 form.addEventListener("submit", function (e) {
     e.preventDefault();
@@ -35,6 +34,7 @@ function deleteBook(index) {
     displayBooks();
 }
 displayBooks()
+
 
 
 
